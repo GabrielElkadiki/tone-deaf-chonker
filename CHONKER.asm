@@ -144,7 +144,7 @@ OuterLoop:
         ; I can't believe this worked
         ; source: https://stackoverflow.com/questions/17252257/generating-sound-in-assembly-8086
         ; NOTE: I figured out how to stop the noise after Game Over 
-        ; but it was so much funnier having a game mover flatline noise
+        ; but it was so much funnier having a game-over flatline noise
 
         mov ax, word ptr [si]     ; Controls the frequency for the beeps by using rock locations
         out 42h, al
